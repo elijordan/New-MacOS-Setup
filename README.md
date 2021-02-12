@@ -167,6 +167,32 @@ Reference (-ish): https://github.com/rbenv/rbenv#installation
 ---
 ---
 
+# Setting Up Node
+Reference: https://github.com/nvm-sh/nvm#installing-and-updating
+
+### Install Version Manager
+
+    curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.37.2/install.sh | bash
+
+### Don't Forget To Source
+
+    source ~/.zshrc
+
+### List Node Versions Available For Installation (Note: the list is absurdly long)
+
+    nvm ls-remote
+
+### Install Most Recent LTS Version (Sets as Default)
+
+    nvm install --lts
+
+### Install Latest Version
+
+    nvm install node
+
+---
+---
+
 # Setting Up Some Useful Tools (For Me, Today Anyhow)
 
 ### Install `jq`
