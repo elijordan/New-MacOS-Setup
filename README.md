@@ -8,7 +8,7 @@ Reference: https://brew.sh/
 
 ---
 
-## Consider `zsh` (Awesome, Recommended, Not Required)
+## Consider `zsh` (Recommended, Not Required)
 
 Reference: https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH#macos
 
@@ -24,7 +24,7 @@ Reference: https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH#macos
 
 ---
 
-## If You Went `zsh`, Consider `oh-my-zsh` (Awesome, Recommended, Not Required)
+## If You Went `zsh`, Consider `oh-my-zsh` (Recommended, Not Required)
 
 ### Install `oh-my-zsh`
 
@@ -55,15 +55,15 @@ Reference: https://opensource.com/article/19/5/python-3-default-mac#what-to-do
 
     pyenv install -l
 
-### Install Python3.8.x - (May Use Ocassionally - May Be Default Someday)
+### Install Python3.8.x
 
     pyenv install 3.8.2
 
-### Install Python3.7.x - (Planning To Use This Most - To Be Initial Default)
+### Install Python3.7.x
 
     pyenv install 3.7.7
 
-### Install Python2.7.x - (Decent To Have - Necessary For Exoline)
+### Install Python2.7.x (Necessary For Exoline)
 
     pyenv install 2.7.17
 
@@ -75,7 +75,7 @@ Reference: https://opensource.com/article/19/5/python-3-default-mac#what-to-do
 
 ## Verify Configuration:
 
-### Check `python` & `pip` - Nice.
+### Check `python` & `pip`
 
     which python
     -> /Users/elijordan/.pyenv/shims/python
@@ -86,7 +86,7 @@ Reference: https://opensource.com/article/19/5/python-3-default-mac#what-to-do
     pip -V
     -> pip 20.1.1 from /Users/elijordan/.pyenv/versions/3.7.7/lib/python3.7/site-packages/pip (python 3.7)
 
-### Check `python3` & `pip3` - Same. Nice.
+### Check `python3` & `pip3`
 
     which python3
     -> /Users/elijordan/.pyenv/shims/python3
@@ -97,7 +97,7 @@ Reference: https://opensource.com/article/19/5/python-3-default-mac#what-to-do
     pip3 -V
     -> pip 20.1.1 from /Users/elijordan/.pyenv/versions/3.7.7/lib/python3.7/site-packages/pip (python 3.7)
 
-### Check `python2` & `pip2` - Nice.
+### Check `python2` & `pip2`
 
     which python2
     -> /Users/elijordan/.pyenv/shims/python2
@@ -120,7 +120,7 @@ Reference: https://opensource.com/article/19/5/python-3-default-mac#what-to-do
         * 3.7.7 (set by /Users/elijordan/.pyenv/version)
         3.8.2
 
-### Can Switch Local (or Change Global)
+### Want to Change Directory-Level Defaut?
 
     pyenv local <installed-version>
 
